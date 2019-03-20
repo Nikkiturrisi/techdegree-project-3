@@ -73,7 +73,7 @@ fieldset {
   padding-bottom: 10px;
 }
 
-label {
+.contact label {
   text-align: left;
 }
 
@@ -105,8 +105,14 @@ input[placeholder] {
 }
 
 .newsletter {
+}
+
+.newsletter label{
 
 }
+
+input[type="checkbox"],
+input[type="radio"]{}
 
 /* Float Clearfix*/
 
