@@ -159,6 +159,10 @@ textarea {
   color: #d0e1e1;
   padding-bottom: 100px;
 }
+
+/**/
+
+@media (min-width: 768px)
 /* Float Clearfix*/
 
 clear::after {
