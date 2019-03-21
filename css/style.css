@@ -43,10 +43,11 @@ h2 {
 
 p {
   color: #ccc;
+  padding: 0 30px;
 }
 
 .container {
-
+  padding-top: 20px;
 }
 
 .contact {
@@ -72,7 +73,7 @@ fieldset {
   font-size: 1.5em;
   color: #000;
   border-top: 5px double #000;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -160,9 +161,51 @@ textarea {
   padding-bottom: 100px;
 }
 
-/**/
+/*Media Query*/
 
-@media (min-width: 768px)
+@media (min-width: 768px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+  }
+
+  .name,
+  .email,
+  .number,
+  .address,
+  .city,
+  .state,
+  .zipcode {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .name input,
+  .email input,
+  .number input,
+  .address input,
+  .city input,
+  .state select,
+  .zipcode input{
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .contact label{
+    width: 25%;
+  }
+
+
+  fieldset{
+
+  }
+  fieldset input{
+
+  }
+
+}
+
 /* Float Clearfix*/
 
 clear::after {
