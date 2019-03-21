@@ -10,10 +10,13 @@ body {
   color: grey;
   text-decoration: none;
   margin: 0;
-  text-align: center;
 }
 
 header {
+}
+
+.signup {
+  text-align: center;
 }
 
 form {
@@ -58,7 +61,7 @@ p {
 
 fieldset {
   border-style: none;
-  display: flex;
+  display: block;
 }
 
 #contact,
@@ -111,9 +114,23 @@ input[placeholder] {
 
 }
 
-input[type="checkbox"],
-input[type="radio"]{}
+.title {
+}
 
+input[type="checkbox"],
+input[type="radio"]{
+  margin-top: 10px;
+  margin-right: 7px;
+}
+
+#tech,
+#plain_text {
+  margin-bottom: 30px;
+}
+
+textarea {
+  
+}
 /* Float Clearfix*/
 
 clear::after {
