@@ -50,9 +50,6 @@ p {
   padding-top: 20px;
 }
 
-.contact {
-}
-
 .contact,
 .newsletter {
   background: #fff;
@@ -108,16 +105,6 @@ input[placeholder] {
   color: grey;
 }
 
-.newsletter {
-}
-
-.newsletter label{
-
-}
-
-.title {
-}
-
 input[type="checkbox"],
 input[type="radio"]{
   margin-top: 10px;
@@ -150,9 +137,6 @@ textarea {
   color: #fff;
 }
 
-.btn:hover{}
-
-.btn::after{}
 
 .footer{
   text-align: center;
@@ -195,15 +179,6 @@ textarea {
   .contact label{
     width: 25%;
   }
-
-
-  fieldset{
-
-  }
-  fieldset input{
-
-  }
-
 }
 
 /* Float Clearfix*/
